@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./server.js"
+    "start": "NODE_ENV=development node server.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -16,6 +16,7 @@
     "cookie-parser": "~1.4.3",
     "cors": "^2.8.1",
     "debug": "~2.6.0",
+    "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "express-jwt": "^5.3.0",
     "express-session": "^1.15.1",
